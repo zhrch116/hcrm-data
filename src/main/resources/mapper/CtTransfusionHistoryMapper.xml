@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtTransfusionHistoryMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtTransfusionHistory" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TRANSFUSION_HISTORY_KEY_ID" property="transfusionHistoryKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="TRANSFUSION_TIME" property="transfusionTime" jdbcType="TIMESTAMP" />
+    <result column="TRANSFUSION_VOLUME" property="transfusionVolume" jdbcType="VARCHAR" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="TRANSFUSION_REASON" property="transfusionReason" jdbcType="LONGVARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

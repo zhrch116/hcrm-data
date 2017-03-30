@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtSpecialDiseaseTaskResultMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtSpecialDiseaseTaskResult" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TASK_RESULT_KEY_ID" property="taskResultKeyId" jdbcType="INTEGER" />
+    <result column="TASK_KEY_ID" property="taskKeyId" jdbcType="INTEGER" />
+    <result column="TEMPLATE_KEY_ID" property="templateKeyId" jdbcType="INTEGER" />
+    <result column="FIELD_KEY_ID" property="fieldKeyId" jdbcType="INTEGER" />
+    <result column="OBJECTIVE_ANSWERS" property="objectiveAnswers" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="SUBJECTIVE_ANSWERS" property="subjectiveAnswers" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDiseaseHistoryMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDiseaseHistory" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DISEASE_HISTORY_KEY_ID" property="diseaseHistoryKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="DISEASE_NAME" property="diseaseName" jdbcType="VARCHAR" />
+    <result column="TIME_OF_DIAGNOSIS" property="timeOfDiagnosis" jdbcType="TIMESTAMP" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

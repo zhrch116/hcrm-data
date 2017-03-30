@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtCallFollowUpRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtCallFollowUpRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="CALL_FOLLOW_UP_REL_KEY_ID" property="callFollowUpRelKeyId" jdbcType="INTEGER" />
+    <result column="FOLLOW_UP_TASK_KEY_ID" property="followUpTaskKeyId" jdbcType="INTEGER" />
+    <result column="CALL_ID" property="callId" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

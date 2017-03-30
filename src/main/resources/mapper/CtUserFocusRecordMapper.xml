@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtUserFocusRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtUserFocusRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="USER_FOCUS_KEY_ID" property="userFocusKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="USER_KEY_ID" property="userKeyId" jdbcType="INTEGER" />
+    <result column="FOCUS_TIME" property="focusTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtResourcesMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtResources" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="RESOURCE_ID" property="resourceId" jdbcType="INTEGER" />
+    <result column="RESOURCE_CODE" property="resourceCode" jdbcType="VARCHAR" />
+    <result column="RESOURCE_NAME" property="resourceName" jdbcType="VARCHAR" />
+    <result column="RESOURCE_DESC" property="resourceDesc" jdbcType="VARCHAR" />
+    <result column="RESOURCE_TYPE" property="resourceType" jdbcType="INTEGER" />
+    <result column="RESOURCE_PATH" property="resourcePath" jdbcType="VARCHAR" />
+    <result column="RESOURCE_ORDER" property="resourceOrder" jdbcType="BIT" />
+    <result column="RESOURCE_DEEP" property="resourceDeep" jdbcType="BIT" />
+    <result column="PARENT_RESOURCE_CODE" property="parentResourceCode" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

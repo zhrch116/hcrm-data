@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDiseaseMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDisease" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DISEASE_ID" property="diseaseId" jdbcType="INTEGER" />
+    <result column="DISEASE_CODE" property="diseaseCode" jdbcType="VARCHAR" />
+    <result column="DISEASE_NAME" property="diseaseName" jdbcType="VARCHAR" />
+    <result column="DISEASE_VERSION" property="diseaseVersion" jdbcType="VARCHAR" />
+    <result column="DISEASE_SHORT_SPELL" property="diseaseShortSpell" jdbcType="VARCHAR" />
+    <result column="CAN_DELETE" property="canDelete" jdbcType="BIT" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

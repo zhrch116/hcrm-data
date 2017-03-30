@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlExamDetailInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlExamDetailInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="EXAM_DETAIL_KEY_ID" property="examDetailKeyId" jdbcType="INTEGER" />
+    <result column="HOS_EXAM_DETAIL_KEY_ID" property="hosExamDetailKeyId" jdbcType="INTEGER" />
+    <result column="EXAM_KEY_ID" property="examKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="PATIENT_SOURCE" property="patientSource" jdbcType="VARCHAR" />
+    <result column="EXAM_NO" property="examNo" jdbcType="VARCHAR" />
+    <result column="ITEM_CODE" property="itemCode" jdbcType="VARCHAR" />
+    <result column="ITEM_NAME" property="itemName" jdbcType="VARCHAR" />
+    <result column="IS_FILED" property="isFiled" jdbcType="INTEGER" />
+    <result column="FILE_TIME" property="fileTime" jdbcType="TIMESTAMP" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="DESCRIPTION" property="description" jdbcType="LONGVARCHAR" />
+    <result column="IMPRESSION" property="impression" jdbcType="LONGVARCHAR" />
+    <result column="RECOMMENDATION" property="recommendation" jdbcType="LONGVARCHAR" />
+    <result column="CLIN_DIAG" property="clinDiag" jdbcType="LONGVARCHAR" />
+    <result column="EXAM_TIPS" property="examTips" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

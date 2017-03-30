@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtPatientClinicInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtPatientClinicInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PATIENT_CLINIC_ID" property="patientClinicId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_PATIENT_ID" property="hospitalPatientId" jdbcType="VARCHAR" />
+    <result column="CLINIC_NO" property="clinicNo" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_NAME" property="hospitalName" jdbcType="VARCHAR" />
+    <result column="DEPT_ID" property="deptId" jdbcType="INTEGER" />
+    <result column="DEPT_CODE" property="deptCode" jdbcType="VARCHAR" />
+    <result column="DEPT_NAME" property="deptName" jdbcType="VARCHAR" />
+    <result column="VISIT_DATE_TIME" property="visitDateTime" jdbcType="TIMESTAMP" />
+    <result column="HOS_ICD_CODE" property="hosIcdCode" jdbcType="VARCHAR" />
+    <result column="HOS_ICD_NAME" property="hosIcdName" jdbcType="VARCHAR" />
+    <result column="ICD_CODE" property="icdCode" jdbcType="VARCHAR" />
+    <result column="ICD_NAME" property="icdName" jdbcType="VARCHAR" />
+    <result column="DOCTOR_CODE" property="doctorCode" jdbcType="VARCHAR" />
+    <result column="DOCTOR_NAME" property="doctorName" jdbcType="VARCHAR" />
+    <result column="PHARMACIST" property="pharmacist" jdbcType="VARCHAR" />
+    <result column="IS_NEED_GENERATE_TASK" property="isNeedGenerateTask" jdbcType="INTEGER" />
+    <result column="IS_TASK_GENERATED" property="isTaskGenerated" jdbcType="INTEGER" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

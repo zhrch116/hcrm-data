@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDoctorMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDoctor" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DOCTOR_KEY_ID" property="doctorKeyId" jdbcType="INTEGER" />
+    <result column="HOS_DOCTOR_KEY_ID" property="hosDoctorKeyId" jdbcType="INTEGER" />
+    <result column="DOCTOR_CODE" property="doctorCode" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="DOCTOR_NAME" property="doctorName" jdbcType="VARCHAR" />
+    <result column="PHONE_NO" property="phoneNo" jdbcType="VARCHAR" />
+    <result column="ID_NO" property="idNo" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="VARCHAR" />
+    <result column="BIRTHDAY" property="birthday" jdbcType="TIMESTAMP" />
+    <result column="MAILBOX" property="mailbox" jdbcType="VARCHAR" />
+    <result column="HOS_TITLE_CODE" property="hosTitleCode" jdbcType="VARCHAR" />
+    <result column="TITLE_NAME" property="titleName" jdbcType="VARCHAR" />
+    <result column="POSITION" property="position" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_ACCOUNT" property="hospitalAccount" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_PASSWORD" property="hospitalPassword" jdbcType="VARCHAR" />
+    <result column="ETL_IMPORT_INSERT_TIME" property="etlImportInsertTime" jdbcType="TIMESTAMP" />
+    <result column="ETL_IMPORT_UPDATE_TIME" property="etlImportUpdateTime" jdbcType="TIMESTAMP" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="SUMMARY" property="summary" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

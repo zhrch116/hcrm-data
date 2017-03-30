@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtTaskTemplateResultMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtTaskTemplateResult" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TASK_TEMPLATE_RESULT_KEY_ID" property="taskTemplateResultKeyId" jdbcType="INTEGER" />
+    <result column="TASK_TEMPLATE_REL_KEY_ID" property="taskTemplateRelKeyId" jdbcType="INTEGER" />
+    <result column="PROBLEM_ID" property="problemId" jdbcType="INTEGER" />
+    <result column="SUBJECTIVE_ANSWERS" property="subjectiveAnswers" jdbcType="VARCHAR" />
+    <result column="OBJECTIVE_ANSWERS" property="objectiveAnswers" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

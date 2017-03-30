@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtFollowUpTaskMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtFollowUpTask" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="FOLLOW_UP_TASK_KEY_ID" property="followUpTaskKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_NAME" property="hospitalName" jdbcType="VARCHAR" />
+    <result column="SOURCE_DEPT_ID" property="sourceDeptId" jdbcType="INTEGER" />
+    <result column="TARGET_DEPT_ID" property="targetDeptId" jdbcType="INTEGER" />
+    <result column="VISIT_TYPE_CODE" property="visitTypeCode" jdbcType="VARCHAR" />
+    <result column="VISIT_TYPE_NAME" property="visitTypeName" jdbcType="VARCHAR" />
+    <result column="PATIENT_SOURCE_KEY_ID" property="patientSourceKeyId" jdbcType="INTEGER" />
+    <result column="SOURCE_TASK_KEY_ID" property="sourceTaskKeyId" jdbcType="INTEGER" />
+    <result column="APPLICABLE_TYPE_CODE" property="applicableTypeCode" jdbcType="VARCHAR" />
+    <result column="CURRENT_STATUS_CODE" property="currentStatusCode" jdbcType="VARCHAR" />
+    <result column="CURRENT_STATUS_NAME" property="currentStatusName" jdbcType="VARCHAR" />
+    <result column="PLAN_START_DATE" property="planStartDate" jdbcType="DATE" />
+    <result column="REAL_START_TIME" property="realStartTime" jdbcType="TIMESTAMP" />
+    <result column="DELAY_START_TIME" property="delayStartTime" jdbcType="TIMESTAMP" />
+    <result column="REAL_END_TIME" property="realEndTime" jdbcType="TIMESTAMP" />
+    <result column="TASK_IS_END" property="taskIsEnd" jdbcType="INTEGER" />
+    <result column="IS_NEED_HEALTH_GUIDANCE" property="isNeedHealthGuidance" jdbcType="INTEGER" />
+    <result column="IS_HEALTH_GUIDANCE_END" property="isHealthGuidanceEnd" jdbcType="INTEGER" />
+    <result column="IS_SEND_APP" property="isSendApp" jdbcType="INTEGER" />
+    <result column="SEND_APP_TIME" property="sendAppTime" jdbcType="TIMESTAMP" />
+    <result column="IS_UPDATE_APP_AFTER_TELEPHONE" property="isUpdateAppAfterTelephone" jdbcType="INTEGER" />
+    <result column="UPDATE_APP_TIME" property="updateAppTime" jdbcType="TIMESTAMP" />
+    <result column="IS_SEND_WECHAT" property="isSendWechat" jdbcType="INTEGER" />
+    <result column="SEND_WECHAT_TIME" property="sendWechatTime" jdbcType="TIMESTAMP" />
+    <result column="LOCK_USER_ID" property="lockUserId" jdbcType="INTEGER" />
+    <result column="LOCK_DUE_DATE" property="lockDueDate" jdbcType="TIMESTAMP" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="FROM_PATIENT_FEEDBACK" property="fromPatientFeedback" jdbcType="LONGVARCHAR" />
+    <result column="TO_PATIENT_FEEDBACK" property="toPatientFeedback" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

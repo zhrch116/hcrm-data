@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtExcelInDiagnosisInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtExcelInDiagnosisInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="IN_DIAGNOSIS_INFO_KEY_ID" property="inDiagnosisInfoKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_IN_HOSPITAL_KEY_ID" property="patientInHospitalKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="DEPT_NAME" property="deptName" jdbcType="VARCHAR" />
+    <result column="HOS_ICD_CODE" property="hosIcdCode" jdbcType="VARCHAR" />
+    <result column="HOS_ICD_NAME" property="hosIcdName" jdbcType="VARCHAR" />
+    <result column="DIAGNOSIS_NO" property="diagnosisNo" jdbcType="INTEGER" />
+    <result column="DIAGNOSIS_DATE" property="diagnosisDate" jdbcType="DATE" />
+    <result column="OPER_TREAT_INDICATOR" property="operTreatIndicator" jdbcType="VARCHAR" />
+    <result column="IS_FILED" property="isFiled" jdbcType="INTEGER" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="DIAGNOSIS_DESC" property="diagnosisDesc" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

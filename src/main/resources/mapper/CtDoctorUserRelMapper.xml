@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDoctorUserRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDoctorUserRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DOCTOR_USER_REL_KEY_ID" property="doctorUserRelKeyId" jdbcType="INTEGER" />
+    <result column="USER_KEY_ID" property="userKeyId" jdbcType="INTEGER" />
+    <result column="DOCTOR_KEY_ID" property="doctorKeyId" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

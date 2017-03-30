@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlJobParameterDictMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlJobParameterDict" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="JOB_PARAMETER_DICT_KEY_ID" property="jobParameterDictKeyId" jdbcType="INTEGER" />
+    <result column="PARAMETER_CODE" property="parameterCode" jdbcType="VARCHAR" />
+    <result column="PARAMETER_NAME" property="parameterName" jdbcType="VARCHAR" />
+    <result column="VARIABLE_NAME" property="variableName" jdbcType="VARCHAR" />
+    <result column="PARAMETER_DESCRIPTION" property="parameterDescription" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

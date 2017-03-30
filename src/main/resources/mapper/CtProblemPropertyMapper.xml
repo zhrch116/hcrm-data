@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtProblemPropertyMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtProblemProperty" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PROBLEM_PROPERTY_ID" property="problemPropertyId" jdbcType="INTEGER" />
+    <result column="PROBLEM_ID" property="problemId" jdbcType="INTEGER" />
+    <result column="PROBLEM_PROPERTY_CODE" property="problemPropertyCode" jdbcType="VARCHAR" />
+    <result column="PROBLEM_PROPERTY_NAME" property="problemPropertyName" jdbcType="VARCHAR" />
+    <result column="PROBLEM_PROPERTY_VALUE_CODE" property="problemPropertyValueCode" jdbcType="VARCHAR" />
+    <result column="PROBLEM_PROPERTY_VALUE_NAME" property="problemPropertyValueName" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

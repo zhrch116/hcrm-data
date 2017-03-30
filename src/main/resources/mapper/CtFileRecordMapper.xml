@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtFileRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtFileRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="FILE_RECORD_KEY_ID" property="fileRecordKeyId" jdbcType="INTEGER" />
+    <result column="FILE_TABLE_NAME" property="fileTableName" jdbcType="VARCHAR" />
+    <result column="FILE_TABLE_KEY_ID" property="fileTableKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_INFO_SOURDE_CODE" property="patientInfoSourdeCode" jdbcType="VARCHAR" />
+    <result column="PATIENT_INFO_SOURDE_NAME" property="patientInfoSourdeName" jdbcType="VARCHAR" />
+    <result column="SOURCE_TABLE_NAME" property="sourceTableName" jdbcType="VARCHAR" />
+    <result column="SOURDE_KEY_ID" property="sourdeKeyId" jdbcType="INTEGER" />
+    <result column="FILE_TIME" property="fileTime" jdbcType="TIMESTAMP" />
+    <result column="UNFILED_TIME" property="unfiledTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlImportRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlImportRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ETL_IMPORT_RECORD_KEY_ID" property="etlImportRecordKeyId" jdbcType="INTEGER" />
+    <result column="LOG_ID" property="logId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="TABLE_NAME" property="tableName" jdbcType="VARCHAR" />
+    <result column="IMPORT_INSERT_COUNT" property="importInsertCount" jdbcType="INTEGER" />
+    <result column="IMPORT_UPDATE_COUNT" property="importUpdateCount" jdbcType="INTEGER" />
+    <result column="IMPORT_DATE" property="importDate" jdbcType="DATE" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtChronicNephropathyCkdResultMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtChronicNephropathyCkdResult" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <id column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="CKD_RESULT" property="ckdResult" jdbcType="DECIMAL" />
+    <result column="CKD_STAGE_RESULT" property="ckdStageResult" jdbcType="VARCHAR" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

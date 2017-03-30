@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtSpecDiseTemplateFieldRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtSpecDiseTemplateFieldRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TEMPLATE_FIELD_REL_KEY_ID" property="templateFieldRelKeyId" jdbcType="INTEGER" />
+    <result column="TEMPLATE_KEY_ID" property="templateKeyId" jdbcType="INTEGER" />
+    <result column="FIELD_KEY_ID" property="fieldKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="FIELD_ORDER" property="fieldOrder" jdbcType="INTEGER" />
+    <result column="IS_REQUIRED" property="isRequired" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtMessagePlatformMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtMessagePlatform" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MESSAGE_PLATFORM_ID" property="messagePlatformId" jdbcType="INTEGER" />
+    <result column="MESSAGE_SUPPLIER_CODE" property="messageSupplierCode" jdbcType="VARCHAR" />
+    <result column="ENTERPRISE_ID" property="enterpriseId" jdbcType="VARCHAR" />
+    <result column="MESSAGE_ADDRESS" property="messageAddress" jdbcType="VARCHAR" />
+    <result column="MESSAGE_USERNAME" property="messageUsername" jdbcType="VARCHAR" />
+    <result column="MESSAGE_PASSWORD" property="messagePassword" jdbcType="VARCHAR" />
+    <result column="MESSAGE_SIGNATURE_LENGTH" property="messageSignatureLength" jdbcType="INTEGER" />
+    <result column="REPLY_QUERY_ADDRESS" property="replyQueryAddress" jdbcType="VARCHAR" />
+    <result column="REPLY_CONFIRM_ADDRESS" property="replyConfirmAddress" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtStatisticsMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtStatistics" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="STATISTICS_ID" property="statisticsId" jdbcType="INTEGER" />
+    <result column="STATISTICS_ITEM_CODE" property="statisticsItemCode" jdbcType="VARCHAR" />
+    <result column="DATA_TIME" property="dataTime" jdbcType="DATE" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_NAME" property="hospitalName" jdbcType="VARCHAR" />
+    <result column="DEPT_ID" property="deptId" jdbcType="VARCHAR" />
+    <result column="DEPT_NAME" property="deptName" jdbcType="VARCHAR" />
+    <result column="TARGET_ID" property="targetId" jdbcType="VARCHAR" />
+    <result column="TARGET_NAME" property="targetName" jdbcType="VARCHAR" />
+    <result column="BELONG_TYPE_CODE" property="belongTypeCode" jdbcType="VARCHAR" />
+    <result column="BELONG_TYPE_NAME" property="belongTypeName" jdbcType="VARCHAR" />
+    <result column="STATISTICS_ITEM_VALUE" property="statisticsItemValue" jdbcType="DOUBLE" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

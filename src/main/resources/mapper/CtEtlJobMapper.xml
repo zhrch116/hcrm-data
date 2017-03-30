@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlJobMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlJob" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="JOB_CODE" property="jobCode" jdbcType="VARCHAR" />
+    <result column="JOB_NAME" property="jobName" jdbcType="VARCHAR" />
+    <result column="JOB_DESCRPITON" property="jobDescrpiton" jdbcType="VARCHAR" />
+    <result column="IS_CLOUD_EXECUTED" property="isCloudExecuted" jdbcType="BIT" />
+    <result column="IS_HOSPITAL_EXECUTED" property="isHospitalExecuted" jdbcType="BIT" />
+    <result column="IS_CLOUD_DIRECTORY" property="isCloudDirectory" jdbcType="VARCHAR" />
+    <result column="IS_HOSPITAL_DIRECTORY" property="isHospitalDirectory" jdbcType="VARCHAR" />
+    <result column="CLOUD_DEFAULT_TIMING_HOUR" property="cloudDefaultTimingHour" jdbcType="INTEGER" />
+    <result column="CLOUD_DEFAULT_TIMING_MINUTE" property="cloudDefaultTimingMinute" jdbcType="INTEGER" />
+    <result column="LOCAL_DEFAULT_TIMING_HOUR" property="localDefaultTimingHour" jdbcType="INTEGER" />
+    <result column="LOCAL_DEFAULT_TIMING_MINUTE" property="localDefaultTimingMinute" jdbcType="INTEGER" />
+    <result column="ETL_TYPE" property="etlType" jdbcType="VARCHAR" />
+    <result column="SHOW_ORDER" property="showOrder" jdbcType="INTEGER" />
+    <result column="LIMIT_HOS_CONFIG_CODE" property="limitHosConfigCode" jdbcType="VARCHAR" />
+    <result column="LIMIT_HOS_CONFIG_VALUE" property="limitHosConfigValue" jdbcType="VARCHAR" />
+    <result column="IS_UPDATE_LOCAL_STATUS" property="isUpdateLocalStatus" jdbcType="BIT" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

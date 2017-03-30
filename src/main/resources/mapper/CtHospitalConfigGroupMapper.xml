@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtHospitalConfigGroupMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtHospitalConfigGroup" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="GROUP_CODE" property="groupCode" jdbcType="VARCHAR" />
+    <result column="GROUP_NAME" property="groupName" jdbcType="VARCHAR" />
+    <result column="MODULE_CODE" property="moduleCode" jdbcType="VARCHAR" />
+    <result column="MODULE_NAME" property="moduleName" jdbcType="VARCHAR" />
+    <result column="MODULE_NO" property="moduleNo" jdbcType="INTEGER" />
+    <result column="GROUP_DESC" property="groupDesc" jdbcType="VARCHAR" />
+    <result column="GROUP_NO" property="groupNo" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

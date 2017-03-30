@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlMedicationInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlMedicationInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MEDICATION_KEY_ID" property="medicationKeyId" jdbcType="INTEGER" />
+    <result column="HOS_MEDICATION_KEY_ID" property="hosMedicationKeyId" jdbcType="INTEGER" />
+    <result column="VISIT_RECORD_KEY_ID" property="visitRecordKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="MEDICATION_ID" property="medicationId" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_PATIENT_ID" property="hospitalPatientId" jdbcType="VARCHAR" />
+    <result column="VISIT_ID" property="visitId" jdbcType="VARCHAR" />
+    <result column="REGISTERED_NO" property="registeredNo" jdbcType="VARCHAR" />
+    <result column="PATIENT_SOURCE" property="patientSource" jdbcType="VARCHAR" />
+    <result column="IS_STRUCTURING" property="isStructuring" jdbcType="INTEGER" />
+    <result column="DRUG_NAME" property="drugName" jdbcType="VARCHAR" />
+    <result column="DRUG_UNITS" property="drugUnits" jdbcType="VARCHAR" />
+    <result column="DRUG_USAGE" property="drugUsage" jdbcType="VARCHAR" />
+    <result column="DRUG_DOSAGE" property="drugDosage" jdbcType="VARCHAR" />
+    <result column="MEDICATION_DATE" property="medicationDate" jdbcType="TIMESTAMP" />
+    <result column="IS_FILED" property="isFiled" jdbcType="INTEGER" />
+    <result column="FILE_TIME" property="fileTime" jdbcType="TIMESTAMP" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="MEDICATION_TEXT" property="medicationText" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

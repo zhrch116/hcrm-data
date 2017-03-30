@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtSystemSettingMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtSystemSetting" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="SYSTEM_SETTING_ID" property="systemSettingId" jdbcType="INTEGER" />
+    <result column="SYSTEM_SETTING_CODE" property="systemSettingCode" jdbcType="VARCHAR" />
+    <result column="SYSTEM_SETTING_DESC" property="systemSettingDesc" jdbcType="LONGVARCHAR" />
+    <result column="SYSTEM_SETTING_VALUE" property="systemSettingValue" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

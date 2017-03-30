@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtPatientInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtPatientInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="JZYH_PATIENT_KEY" property="jzyhPatientKey" jdbcType="VARCHAR" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="ID_NO" property="idNo" jdbcType="VARCHAR" />
+    <result column="MEDICAL_INSURANCE_CARD_NO" property="medicalInsuranceCardNo" jdbcType="VARCHAR" />
+    <result column="SOCIAL_SECURITY_CARD_NO" property="socialSecurityCardNo" jdbcType="VARCHAR" />
+    <result column="PASSPORT_NO" property="passportNo" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="VARCHAR" />
+    <result column="DATE_OF_BIRTH" property="dateOfBirth" jdbcType="DATE" />
+    <result column="NATION" property="nation" jdbcType="VARCHAR" />
+    <result column="BLOOD_TYPE_CODE" property="bloodTypeCode" jdbcType="VARCHAR" />
+    <result column="BLOOD_TYPE_NAME" property="bloodTypeName" jdbcType="VARCHAR" />
+    <result column="RH_NEGATIVE" property="rhNegative" jdbcType="VARCHAR" />
+    <result column="OCCUPATION" property="occupation" jdbcType="VARCHAR" />
+    <result column="MARITAL_STATUS" property="maritalStatus" jdbcType="VARCHAR" />
+    <result column="INSURANCE_TYPE" property="insuranceType" jdbcType="VARCHAR" />
+    <result column="WORK_UNIT" property="workUnit" jdbcType="VARCHAR" />
+    <result column="PHONE_NO" property="phoneNo" jdbcType="VARCHAR" />
+    <result column="MAILBOX" property="mailbox" jdbcType="VARCHAR" />
+    <result column="ADDRESS_PROVINCE_CODE" property="addressProvinceCode" jdbcType="VARCHAR" />
+    <result column="ADDRESS_PROVINCE_NAME" property="addressProvinceName" jdbcType="VARCHAR" />
+    <result column="ADDRESS_CITY_CODE" property="addressCityCode" jdbcType="VARCHAR" />
+    <result column="ADDRESS_CITY_NAME" property="addressCityName" jdbcType="VARCHAR" />
+    <result column="ADDRESS_COUNTY_DISTRICT_CODE" property="addressCountyDistrictCode" jdbcType="VARCHAR" />
+    <result column="ADDRESS_COUNTY_DISTRICT_NAME" property="addressCountyDistrictName" jdbcType="VARCHAR" />
+    <result column="ADDRESS_STREET_TOWNSHIP_CODE" property="addressStreetTownshipCode" jdbcType="VARCHAR" />
+    <result column="ADDRESS_STREET_TOWNSHIP_NAME" property="addressStreetTownshipName" jdbcType="VARCHAR" />
+    <result column="NEXT_OF_KIN" property="nextOfKin" jdbcType="VARCHAR" />
+    <result column="RELATIONSHIP_NAME" property="relationshipName" jdbcType="VARCHAR" />
+    <result column="NEXT_OF_KIN_PHONE" property="nextOfKinPhone" jdbcType="VARCHAR" />
+    <result column="NEW_RELATIVES" property="newRelatives" jdbcType="VARCHAR" />
+    <result column="NEW_RELATIVES_RELATIONSHIP_NAME" property="newRelativesRelationshipName" jdbcType="VARCHAR" />
+    <result column="NEW_RELATIVES_PHONE" property="newRelativesPhone" jdbcType="VARCHAR" />
+    <result column="IMPORTANT_TYPE" property="importantType" jdbcType="INTEGER" />
+    <result column="IS_IN_BLACLLIST" property="isInBlacllist" jdbcType="INTEGER" />
+    <result column="IS_JZYH_PATIENT" property="isJzyhPatient" jdbcType="INTEGER" />
+    <result column="HYPERTENSION_TYPE" property="hypertensionType" jdbcType="INTEGER" />
+    <result column="DIABETES_TYPE" property="diabetesType" jdbcType="INTEGER" />
+    <result column="CHRONIC_NEPHROPATHY_TYPE" property="chronicNephropathyType" jdbcType="INTEGER" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="HOUSE_ADDRESS" property="houseAddress" jdbcType="LONGVARCHAR" />
+    <result column="NEXT_OF_KIN_ADDRESS" property="nextOfKinAddress" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

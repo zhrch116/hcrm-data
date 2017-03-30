@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtTemplateProblemRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtTemplateProblemRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="PROBLEM_ID" property="problemId" jdbcType="INTEGER" />
+    <id column="TEMPLATE_ID" property="templateId" jdbcType="INTEGER" />
+    <result column="WHETHER_MUST_ANSWER" property="whetherMustAnswer" jdbcType="BIT" />
+    <result column="PROBLEM_ORDER" property="problemOrder" jdbcType="BIT" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

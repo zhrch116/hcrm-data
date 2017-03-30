@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtEtlVersionRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtEtlVersionRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ETL_VERSION_ID" property="etlVersionId" jdbcType="INTEGER" />
+    <result column="VERSION_TYPE" property="versionType" jdbcType="VARCHAR" />
+    <result column="VERSION_FILE_NAME" property="versionFileName" jdbcType="VARCHAR" />
+    <result column="SQL_SCRIPT_DESCRIPTION" property="sqlScriptDescription" jdbcType="VARCHAR" />
+    <result column="VERSION" property="version" jdbcType="VARCHAR" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="DATE" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

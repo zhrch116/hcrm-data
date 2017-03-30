@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtUserMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtUser" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="USER_KEY_ID" property="userKeyId" jdbcType="INTEGER" />
+    <result column="JZYH_USER_ID" property="jzyhUserId" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_NAME" property="hospitalName" jdbcType="VARCHAR" />
+    <result column="JOB_NO" property="jobNo" jdbcType="VARCHAR" />
+    <result column="IS_MANAGER" property="isManager" jdbcType="BIT" />
+    <result column="NAME" property="name" jdbcType="VARCHAR" />
+    <result column="ID_NO" property="idNo" jdbcType="VARCHAR" />
+    <result column="PHONE_NO" property="phoneNo" jdbcType="VARCHAR" />
+    <result column="E_MAIL" property="eMail" jdbcType="VARCHAR" />
+    <result column="SEX" property="sex" jdbcType="VARCHAR" />
+    <result column="BIRTHDAY" property="birthday" jdbcType="DATE" />
+    <result column="ACCOUNT" property="account" jdbcType="VARCHAR" />
+    <result column="PASSWORD" property="password" jdbcType="VARCHAR" />
+    <result column="IS_ACCOUNT_NON_EXPIRED" property="isAccountNonExpired" jdbcType="BIT" />
+    <result column="IS_ACCOUNT_NON_LOCKED" property="isAccountNonLocked" jdbcType="BIT" />
+    <result column="IS_CREDENTIALS_NON_EXPIRED" property="isCredentialsNonExpired" jdbcType="BIT" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="CAN_DELETE" property="canDelete" jdbcType="BIT" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="REMARK" property="remark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

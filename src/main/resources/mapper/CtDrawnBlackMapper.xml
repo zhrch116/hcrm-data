@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDrawnBlackMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDrawnBlack" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DRAWN_BLACK_KEY_ID" property="drawnBlackKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="DRAWN_BLACK_TASK_ID" property="drawnBlackTaskId" jdbcType="INTEGER" />
+    <result column="DRAWN_BLACK_REASON_CODE" property="drawnBlackReasonCode" jdbcType="VARCHAR" />
+    <result column="DRAWN_BLACK_REASON_NAME" property="drawnBlackReasonName" jdbcType="VARCHAR" />
+    <result column="CUSTOMER_ID" property="customerId" jdbcType="INTEGER" />
+    <result column="DRAWN_BLACK_TIME" property="drawnBlackTime" jdbcType="TIMESTAMP" />
+    <result column="IS_RELIEVE" property="isRelieve" jdbcType="INTEGER" />
+    <result column="RELIEVE_TIME" property="relieveTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

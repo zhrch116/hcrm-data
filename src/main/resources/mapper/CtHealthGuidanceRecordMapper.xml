@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtHealthGuidanceRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtHealthGuidanceRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HEALTH_GUIDANCE_KEY_ID" property="healthGuidanceKeyId" jdbcType="INTEGER" />
+    <result column="FOLLOW_UP_TASK_KEY_ID" property="followUpTaskKeyId" jdbcType="INTEGER" />
+    <result column="HEALTH_GUIDANCE_USER_ID" property="healthGuidanceUserId" jdbcType="INTEGER" />
+    <result column="HEALTH_GUIDANCE_TIME" property="healthGuidanceTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="HEALTH_GUIDANCE_CONTENT" property="healthGuidanceContent" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

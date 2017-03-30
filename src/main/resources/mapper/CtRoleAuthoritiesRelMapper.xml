@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtRoleAuthoritiesRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtRoleAuthoritiesRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ROLE_AUTHORITIES_REL_KEY_ID" property="roleAuthoritiesRelKeyId" jdbcType="INTEGER" />
+    <result column="AUTHORITIES_KEY_ID" property="authoritiesKeyId" jdbcType="INTEGER" />
+    <result column="ROLE_KEY_ID" property="roleKeyId" jdbcType="INTEGER" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+</mapper>

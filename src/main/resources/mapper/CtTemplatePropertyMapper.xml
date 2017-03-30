@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtTemplatePropertyMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtTemplateProperty" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TEMPLATE_PROPERTY_ID" property="templatePropertyId" jdbcType="INTEGER" />
+    <result column="TEMPLATE_ID" property="templateId" jdbcType="INTEGER" />
+    <result column="TEMPLATE_PROPERTY_CODE" property="templatePropertyCode" jdbcType="VARCHAR" />
+    <result column="TEMPLATE_PROPERTY_NAME" property="templatePropertyName" jdbcType="VARCHAR" />
+    <result column="TEMPLATE_PROPERTY_VALUE_CODE" property="templatePropertyValueCode" jdbcType="VARCHAR" />
+    <result column="TEMPLATE_PROPERTY_VALUE_NAME" property="templatePropertyValueName" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

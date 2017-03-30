@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtOptionMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtOption" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="OPTION_ID" property="optionId" jdbcType="INTEGER" />
+    <result column="PROBLEM_ID" property="problemId" jdbcType="INTEGER" />
+    <result column="OPTION_CONTENT" property="optionContent" jdbcType="VARCHAR" />
+    <result column="OPTION_DESCRIPTION" property="optionDescription" jdbcType="VARCHAR" />
+    <result column="OPTION_ORDER" property="optionOrder" jdbcType="BIT" />
+    <result column="OPTION_SCORE" property="optionScore" jdbcType="INTEGER" />
+    <result column="IS_OPTION_REMARK" property="isOptionRemark" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

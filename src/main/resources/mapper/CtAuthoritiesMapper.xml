@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtAuthoritiesMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtAuthorities" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="AUTHORITIES_KEY_ID" property="authoritiesKeyId" jdbcType="INTEGER" />
+    <result column="AUTHORITIES_CODE" property="authoritiesCode" jdbcType="VARCHAR" />
+    <result column="AUTHORITIES_NAME" property="authoritiesName" jdbcType="VARCHAR" />
+    <result column="PARENT_AUTHORITIES_CODE" property="parentAuthoritiesCode" jdbcType="VARCHAR" />
+    <result column="AUTHORITIES_LEVEL" property="authoritiesLevel" jdbcType="INTEGER" />
+    <result column="AUTHORITIES_ORDER" property="authoritiesOrder" jdbcType="INTEGER" />
+    <result column="AUTHORITIES_TYPE_CODE" property="authoritiesTypeCode" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

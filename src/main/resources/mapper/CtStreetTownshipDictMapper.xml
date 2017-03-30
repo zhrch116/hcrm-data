@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtStreetTownshipDictMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtStreetTownshipDict" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="STREET_TOWNSHIP_CODE" property="streetTownshipCode" jdbcType="VARCHAR" />
+    <result column="COUNTY_DISTRICT_CODE" property="countyDistrictCode" jdbcType="VARCHAR" />
+    <result column="STREET_TOWNSHIP_NAME" property="streetTownshipName" jdbcType="VARCHAR" />
+    <result column="STREET_TOWNSHIP_TYPE_CODE" property="streetTownshipTypeCode" jdbcType="VARCHAR" />
+    <result column="STREET_TOWNSHIP_TYPE_NAME" property="streetTownshipTypeName" jdbcType="VARCHAR" />
+    <result column="STREET_TOWNSHIP_SHORT_SPELL" property="streetTownshipShortSpell" jdbcType="VARCHAR" />
+    <result column="STREET_TOWNSHIP_FULL_SPELL" property="streetTownshipFullSpell" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

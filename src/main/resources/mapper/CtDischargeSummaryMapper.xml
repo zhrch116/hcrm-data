@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDischargeSummaryMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDischargeSummary" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DISCHARGE_SUMMARY_KEY_ID" property="dischargeSummaryKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_IN_HOSPITAL_KEY_ID" property="patientInHospitalKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_PATIENT_ID" property="hospitalPatientId" jdbcType="VARCHAR" />
+    <result column="VISIT_ID" property="visitId" jdbcType="VARCHAR" />
+    <result column="INHOSPITAL_NO" property="inhospitalNo" jdbcType="VARCHAR" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="DISCHARGE_CREATE_TIME" property="dischargeCreateTime" jdbcType="TIMESTAMP" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="CLINIC_DIAGNOSIS" property="clinicDiagnosis" jdbcType="LONGVARCHAR" />
+    <result column="ADM_MAJOR_SYM_SIGNS" property="admMajorSymSigns" jdbcType="LONGVARCHAR" />
+    <result column="ADM_ICD_CODE" property="admIcdCode" jdbcType="LONGVARCHAR" />
+    <result column="DIS_ICD_CODE" property="disIcdCode" jdbcType="LONGVARCHAR" />
+    <result column="DIS_ICD_NAME" property="disIcdName" jdbcType="LONGVARCHAR" />
+    <result column="ADM_ICD_NAME" property="admIcdName" jdbcType="LONGVARCHAR" />
+    <result column="COU_TREA_RESULT" property="couTreaResult" jdbcType="LONGVARCHAR" />
+    <result column="MAJOR_TEST_RESULT" property="majorTestResult" jdbcType="LONGVARCHAR" />
+    <result column="X_RAY_NO" property="xRayNo" jdbcType="LONGVARCHAR" />
+    <result column="INSPECTION_CONSULTATION" property="inspectionConsultation" jdbcType="LONGVARCHAR" />
+    <result column="COMPLICATION" property="complication" jdbcType="LONGVARCHAR" />
+    <result column="DIS_MAJOR_SYM_SIGNS" property="disMajorSymSigns" jdbcType="LONGVARCHAR" />
+    <result column="DIS_MEDICATION_SUGGESTION" property="disMedicationSuggestion" jdbcType="LONGVARCHAR" />
+    <result column="DIS_OTHER_MEDICATION_SUGGESTION" property="disOtherMedicationSuggestion" jdbcType="LONGVARCHAR" />
+    <result column="TREATMENT_RESULT" property="treatmentResult" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

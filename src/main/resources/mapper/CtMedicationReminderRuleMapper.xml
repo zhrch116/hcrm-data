@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtMedicationReminderRuleMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtMedicationReminderRule" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="MEDICATION_REMINDER_RULE_KEY_ID" property="medicationReminderRuleKeyId" jdbcType="INTEGER" />
+    <result column="MEDICATION_REMINDER_KEY_ID" property="medicationReminderKeyId" jdbcType="INTEGER" />
+    <result column="MEDICATION_NAME" property="medicationName" jdbcType="VARCHAR" />
+    <result column="MEDICATION_PURPOSE" property="medicationPurpose" jdbcType="VARCHAR" />
+    <result column="USAGE_AND_DOSAGE" property="usageAndDosage" jdbcType="VARCHAR" />
+    <result column="BEGIN_DATE" property="beginDate" jdbcType="DATE" />
+    <result column="END_DATE" property="endDate" jdbcType="DATE" />
+    <result column="FREQUENCY_TYPE_CODE" property="frequencyTypeCode" jdbcType="VARCHAR" />
+    <result column="FREQUENCY_TYPE_NAME" property="frequencyTypeName" jdbcType="VARCHAR" />
+    <result column="FREQUENCY_VALUE" property="frequencyValue" jdbcType="INTEGER" />
+    <result column="WEEKDAY_LIST" property="weekdayList" jdbcType="VARCHAR" />
+    <result column="TIMING_LIST" property="timingList" jdbcType="VARCHAR" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+    <result column="ATTENTION_ITEM" property="attentionItem" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

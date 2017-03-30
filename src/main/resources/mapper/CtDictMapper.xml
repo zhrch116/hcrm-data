@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtDictMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtDict" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="DICT_VALUE_CODE" property="dictValueCode" jdbcType="VARCHAR" />
+    <result column="DICT_TYPE_CODE" property="dictTypeCode" jdbcType="VARCHAR" />
+    <result column="DICT_VALUE_NAME" property="dictValueName" jdbcType="VARCHAR" />
+    <result column="DICT_VALUE_SEQ" property="dictValueSeq" jdbcType="BIT" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtVisitReminderPushRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtVisitReminderPushRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="VISIT_REMINDER_PUSH_KEY_ID" property="visitReminderPushKeyId" jdbcType="INTEGER" />
+    <result column="TREATMENT_PLAN_KEY_ID" property="treatmentPlanKeyId" jdbcType="INTEGER" />
+    <result column="VISIT_PLAN_PUSH_DATETIME" property="visitPlanPushDatetime" jdbcType="TIMESTAMP" />
+    <result column="IS_APP_GET" property="isAppGet" jdbcType="INTEGER" />
+    <result column="VISIT_REAL_PUSH_DATETIME" property="visitRealPushDatetime" jdbcType="TIMESTAMP" />
+    <result column="PUSH_STATUS" property="pushStatus" jdbcType="INTEGER" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

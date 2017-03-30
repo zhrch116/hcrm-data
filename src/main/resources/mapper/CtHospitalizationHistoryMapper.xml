@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtHospitalizationHistoryMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtHospitalizationHistory" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HOSPITALIZATION_HISTORY_KEY_ID" property="hospitalizationHistoryKeyId" jdbcType="INTEGER" />
+    <result column="PATIENT_KEY_ID" property="patientKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITALIZATION_TIME" property="hospitalizationTime" jdbcType="TIMESTAMP" />
+    <result column="DIAGNOSIS" property="diagnosis" jdbcType="VARCHAR" />
+    <result column="MEDICAL_INSTITUTION_NAME" property="medicalInstitutionName" jdbcType="VARCHAR" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="HOSPITALIZATION_REASON" property="hospitalizationReason" jdbcType="LONGVARCHAR" />
+    <result column="REMARK" property="remark" jdbcType="LONGVARCHAR" />
+  </resultMap>
+</mapper>

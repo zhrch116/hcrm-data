@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtHospitalModelRoleMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtHospitalModelRole" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HOSPITAL_MODEL_ROLE_ID" property="hospitalModelRoleId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_MODEL_ID" property="hospitalModelId" jdbcType="INTEGER" />
+    <result column="ROLE_KEY_ID" property="roleKeyId" jdbcType="INTEGER" />
+    <result column="INIT_ROLE_CODE" property="initRoleCode" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>

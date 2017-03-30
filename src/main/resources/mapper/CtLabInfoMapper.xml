@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtLabInfoMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtLabInfo" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="LAB_KEY_ID" property="labKeyId" jdbcType="INTEGER" />
+    <result column="VISIT_RECORD_KEY_ID" property="visitRecordKeyId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_ID" property="hospitalId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_PATIENT_ID" property="hospitalPatientId" jdbcType="VARCHAR" />
+    <result column="VISIT_ID" property="visitId" jdbcType="VARCHAR" />
+    <result column="REGISTERED_NO" property="registeredNo" jdbcType="VARCHAR" />
+    <result column="PATIENT_SOURCE" property="patientSource" jdbcType="VARCHAR" />
+    <result column="LAB_NO" property="labNo" jdbcType="VARCHAR" />
+    <result column="LAB_NAME" property="labName" jdbcType="VARCHAR" />
+    <result column="SPECIMEN_TYPE" property="specimenType" jdbcType="VARCHAR" />
+    <result column="DOCTOR_CODE" property="doctorCode" jdbcType="VARCHAR" />
+    <result column="DOCTOR_NAME" property="doctorName" jdbcType="VARCHAR" />
+    <result column="DEPT_CODE" property="deptCode" jdbcType="VARCHAR" />
+    <result column="DEPT_NAME" property="deptName" jdbcType="VARCHAR" />
+    <result column="LAB_DATE" property="labDate" jdbcType="TIMESTAMP" />
+    <result column="DATA_SOURCE_CODE" property="dataSourceCode" jdbcType="VARCHAR" />
+    <result column="CREATOR_ID" property="creatorId" jdbcType="INTEGER" />
+    <result column="CREATE_TIME" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="EDITOR_ID" property="editorId" jdbcType="INTEGER" />
+    <result column="UPDATE_TIME" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

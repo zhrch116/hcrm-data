@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtStatisticsItemDictMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtStatisticsItemDict" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="STATISTICS_ITEM_CODE" property="statisticsItemCode" jdbcType="VARCHAR" />
+    <result column="STATISTICS_ITEM_NAME" property="statisticsItemName" jdbcType="VARCHAR" />
+    <result column="STATISTICS_ITEM_DESCRIPTION" property="statisticsItemDescription" jdbcType="VARCHAR" />
+    <result column="UNIT" property="unit" jdbcType="VARCHAR" />
+    <result column="IS_ACCUMULATE" property="isAccumulate" jdbcType="INTEGER" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="TINYINT" />
+  </resultMap>
+</mapper>

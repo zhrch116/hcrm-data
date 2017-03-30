@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtHospitalDiseaseDeptRelMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtHospitalDiseaseDeptRel" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="HOSPITAL_DISEASE_DEPT_REL" property="hospitalDiseaseDeptRel" jdbcType="INTEGER" />
+    <result column="DEPT_ID" property="deptId" jdbcType="INTEGER" />
+    <result column="HOSPITAL_DISEASE_KEY_ID" property="hospitalDiseaseKeyId" jdbcType="INTEGER" />
+  </resultMap>
+</mapper>

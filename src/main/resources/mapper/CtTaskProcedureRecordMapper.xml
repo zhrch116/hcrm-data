@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtTaskProcedureRecordMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtTaskProcedureRecord" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="TASK_PROCEDURE_KEY_ID" property="taskProcedureKeyId" jdbcType="INTEGER" />
+    <result column="FOLLOW_UP_TASK_KEY_ID" property="followUpTaskKeyId" jdbcType="INTEGER" />
+    <result column="OPERATION_STEP_CODE" property="operationStepCode" jdbcType="VARCHAR" />
+    <result column="OPERATION_STEP_NAME" property="operationStepName" jdbcType="VARCHAR" />
+    <result column="OPERATION_STEP_DETAIL_CODE" property="operationStepDetailCode" jdbcType="VARCHAR" />
+    <result column="OPERATION_STEP_DETAIL_NAME" property="operationStepDetailName" jdbcType="VARCHAR" />
+    <result column="OPERATION_STEP_DETAIL_REMARK" property="operationStepDetailRemark" jdbcType="VARCHAR" />
+    <result column="BEFORE_OPERATION_TASK_STATUS_CODE" property="beforeOperationTaskStatusCode" jdbcType="VARCHAR" />
+    <result column="BEFORE_OPERATION_TASK_STATUS_NAME" property="beforeOperationTaskStatusName" jdbcType="VARCHAR" />
+    <result column="AFTER_OPERATION_TASK_STATUS_CODE" property="afterOperationTaskStatusCode" jdbcType="VARCHAR" />
+    <result column="AFTER_OPERATION_TASK_STATUS_NAME" property="afterOperationTaskStatusName" jdbcType="VARCHAR" />
+    <result column="OPERATION_TIME" property="operationTime" jdbcType="TIMESTAMP" />
+    <result column="PROCEDURE_ORDER" property="procedureOrder" jdbcType="INTEGER" />
+    <result column="OPERATER_ID" property="operaterId" jdbcType="VARCHAR" />
+    <result column="OPERATER_NAME" property="operaterName" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>

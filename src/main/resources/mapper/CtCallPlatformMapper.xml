@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="tk.mybatis.springboot.mapper.CtCallPlatformMapper" >
+  <resultMap id="BaseResultMap" type="tk.mybatis.springboot.model.CtCallPlatform" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="CALL_PLATFORM_ID" property="callPlatformId" jdbcType="INTEGER" />
+    <result column="SUPPLIER_CODE" property="supplierCode" jdbcType="VARCHAR" />
+    <result column="CTI_ADDRESS" property="ctiAddress" jdbcType="VARCHAR" />
+    <result column="CTI_DB_ADDRESS" property="ctiDbAddress" jdbcType="VARCHAR" />
+    <result column="RECORD_UPLOAD_PATH" property="recordUploadPath" jdbcType="VARCHAR" />
+    <result column="RECORD_ORI_PATH" property="recordOriPath" jdbcType="VARCHAR" />
+    <result column="RECORD_NET_PATH" property="recordNetPath" jdbcType="VARCHAR" />
+    <result column="IS_ENABLE" property="isEnable" jdbcType="BIT" />
+  </resultMap>
+</mapper>
