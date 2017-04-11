@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tk.mybatis</groupId>
-    <artifactId>mybatis-spring-boot</artifactId>
+    <artifactId>hcrm-data</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <parent>
@@ -17,6 +17,9 @@
     <properties>
         <java.version>1.8</java.version>
         <mybatis.spring.version>1.2.4</mybatis.spring.version>
+        <mybatis.generator.configurationFile>
+            ${basedir}/src/main/resources/generatorConfig.xml
+        </mybatis.generator.configurationFile>
     </properties>
 
     <dependencies>
@@ -93,6 +96,13 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+        <!-- lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.2</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <build>
@@ -117,6 +127,15 @@
                     <overwrite>true</overwrite>
                     <verbose>true</verbose>
                 </configuration>
+                <!--在maven编译阶段自动生产dao/mapper/bean-->
+                <executions>
+                    <execution>
+                        <id>Generate MyBatis Artifacts</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <dependencies>
                     <dependency>
                         <groupId>mysql</groupId>
